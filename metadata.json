@@ -1,0 +1,6 @@
+{
+  "name": "Enterprise Business Planning & P&L Analytics",
+  "description": "Comprehensive corporate planning platform featuring October Planning and April Reforecast cycle management, dynamic Headcount planning, driver-based P&L modeling, AI predictive forecasting, multi-scenario what-if simulations, and executive monthly business review dashboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
