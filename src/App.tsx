@@ -76,18 +76,6 @@ const MainLayout: React.FC = () => {
 
       {/* Global Notification Drawer */}
       <NotificationDrawer isOpen={isNotifsOpen} onClose={() => setIsNotifsOpen(false)} />
-
-      {/* Geometric Balance System Status Footer */}
-      <footer className="h-8 bg-slate-200 border-t border-slate-300 px-6 flex items-center justify-between text-[10px] font-medium text-slate-600 shrink-0">
-        <div>System v4.2.1-stable | Security: Role-Based (RBAC) Enabled</div>
-        <div className="flex items-center gap-4">
-          <span className="flex items-center gap-1.5">
-            <div className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></div>
-            ERP Integration Active
-          </span>
-          <span>Last Audit: 12.04.2024</span>
-        </div>
-      </footer>
     </div>
   );
 };
